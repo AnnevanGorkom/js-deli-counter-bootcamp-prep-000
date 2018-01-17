@@ -5,12 +5,16 @@ function takeANumber(katzDeliLine, name) {
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 }
 
-//Build a function that a new customer will use when entering the deli.
-//The function, takeANumber,
-//  should accept the current line of people, katzDeliLine,
-//  along with the new person's name as parameters.
+function nowServing(name) {
+  if (name === katzDeli[0]) {
+    return `Serving ${name}`
+  } else {
+    return "There is nobody waiting to be served!"
+  }
+}
 
-//The function should return
-//  their position in line.
+//Build a function nowServing.
+//return the first person in line
+//remove that individual from the line
 
-//And don't go being too programmer-y and give them their index. These are normal people. If they are 7th in line, tell them that. Don't get their hopes up by telling them they are number 6 in line.
+//If there is nobody in line, it should return "There is nobody waiting to be served!"
