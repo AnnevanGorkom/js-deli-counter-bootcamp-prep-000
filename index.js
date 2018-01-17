@@ -9,7 +9,7 @@ function nowServing(name) {
   if (name === katzDeli[0]) {
     return "There is nobody waiting to be served!"
   } else {
-    return `Currently serving ${name}.`
+    return `Currently serving ${katzDeli[i]}.`
   }
 }
 
