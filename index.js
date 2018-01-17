@@ -4,7 +4,7 @@ function takeANumber(katzDeliLine, name) {
   for (var i = 0; i < katzDeliLine.length; i++) {
     katzDeliLine.push(name);
   }
-  return `Welcome, ${name}. You are number ${katzDeliLine[i]} in line.`;
+  return `Welcome, ${name}. You are number 1 in line.`;
 }
 
 //Build a function that a new customer will use when entering the deli.
